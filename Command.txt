@@ -1,0 +1,25 @@
+## run frida with file exe => { frida file.exe -l file.js } ##
+# [ Frida ]
+1.Install python and pip;
+2.pip install frida-tools;
+
+# [ TypeScript ]
+1. goto https://frida.re -> javascriptipa -> javascript { Try TypeScript Now -> On your computer }
+{ use cmd => 1.npm install typescript --save-dev / install ->  Node.js [LTS] }  
+2. Install visual studio code [ Create Folder and open cmd use { code . } ] 
+(how to use) 
+{
+ 1. Create File.ts and 2.[open terminal] -> {npm install typescript --save-dev} and { npm init (package.json) } 
+ and { tsc } for fix erorr use => {1- npm install typescript -g --save-dev }{2- Get-ExecutionPolicy }{3- Set-ExecutionPolicy -ExecutionPolicy }
+ Erorr not fix open windows PowerShell as administrator and put { Set-ExecutionPolicy -ExecutionPolicy }
+ (tsc) and { tsc --init (tscconfig.json) } open tscconfig.json and {(Enable) rootDir and outDir [put {"outDir": "./js"}]} and save
+ after saving open terminal -> npm install ts-node
+ # open start Debugging { install (TypeScript Debugger) } and ( TS Debug ) you can run  ; [ ts ]
+}
+# [ TypeScript as JavaScript ]
+1. open Terminal-> Run Task -> TypeScript -> tsc;watch -tsconfig.json
+=============================================================================
+[#]
+1- goto https://frida.re -> JavaScript API -> {  this repo(github) } -> open [package.json] and install
+{ npm install @types/frida-gum } { npm install @types/node } { npm install frida-compile }
+and { npm install }

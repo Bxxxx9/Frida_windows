@@ -1,0 +1,17 @@
+{
+  "name": "frida_windows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/frida-gum": "^18.1.0",
+    "@types/node": "^18.7.16",
+    "frida-compile": "^16.1.0",
+    "ts-node": "^10.9.1"
+  }
+}
